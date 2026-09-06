@@ -4,6 +4,8 @@ A **local, read-only** MCP Server that parses and analyzes HAR (HTTP Archive) fi
 
 > Give your AI agent eyes into HTTP traffic — without exposing secrets or leaving your machine.
 
+> ⚠️ **Disclaimer:** This was a weekend vibe-coding project, built almost entirely through AI-assisted pair programming. It works, but it's **not production-hardened**. There may be security holes, edge cases, and rough edges. If you find bugs, open an issue — or better yet, open a PR. Don't trust it with anything you can't afford to lose.
+
 ## Why?
 
 When reverse-engineering APIs, debugging web apps, or analyzing traffic, you need to understand what's happening in the network layer. HAR files capture all HTTP traffic, but they're huge JSON blobs that don't fit in an LLM's context.
