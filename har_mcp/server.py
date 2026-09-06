@@ -604,7 +604,7 @@ def main():
     config = get_config()
     logger.setLevel(config.log_level)
     logger.info("Starting HAR Analysis MCP Server (stdio)")
-    mcp.run()
+    mcp.run(transport="stdio", show_banner=False)
 
 
 if __name__ == "__main__":

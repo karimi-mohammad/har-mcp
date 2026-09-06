@@ -10,3 +10,4 @@ venv/
 *.har
 !tests/fixtures/sample.har
 !sample.har
+stderr.log
